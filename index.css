@@ -43,3 +43,47 @@ body {
     width: 90%;
     height: 50vh;
 }
+
+.works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.picture {
+    width: 250px;
+    height: 180px;
+    background-image: url(img/jcole/j.cole-blue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colors {
+    height: 150px;
+    display: flex;
+}
+
+.box {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.brown {
+    background-color: #715245;
+}
+
+.red {
+    background-color: #520003;
+}
+
+.blue {
+    background-color: #175d7e;
+}
+
+.green {
+    background-color: #456150;
+}
