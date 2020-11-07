@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-color: black;
+}
+
+.name {
+    font-size: 140px;
+    font-weight: 600;
+}
+
+.first-part {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 47vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 53vh;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 100vh;
+}
+
+.about-me p {
+    width: 90%;
+}
