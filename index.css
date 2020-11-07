@@ -59,6 +59,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid white;
 }
 
 .colors {
@@ -70,6 +71,7 @@ body {
     margin: 5px;
     width: 50px;
     height: 50px;
+    border: 1px solid white;
 }
 
 .brown {
@@ -86,4 +88,16 @@ body {
 
 .green {
     background-color: #456150;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }

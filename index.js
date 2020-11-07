@@ -27,3 +27,17 @@ $(".green").on("click", function() {
 $(".brown").on("click", function() {
     $('.picture').css('background-image', 'url(img/jcole/j.cole-brown.png');
 });
+
+
+// $(".up").on("click", function() {
+//     $(document).ready(function() {
+//         $(window).scrollTop(0);
+//     });
+// });
+
+$(".up").click(function() {
+    $('html,body').animate({
+            scrollTop: $(".container").offset().top
+        },
+        'slow');
+});
