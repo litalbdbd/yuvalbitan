@@ -103,3 +103,39 @@ body {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
 }
+
+.contact-me {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-details {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.phone,
+.email {
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram {
+    background-image: url("https://tighestimepieces.com/wp-content/uploads/2016/11/Instagram-icon-WHITE.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}

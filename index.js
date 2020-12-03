@@ -12,6 +12,17 @@ $("#work").click(function() {
         'slow');
 });
 
+$("#contact").click(function() {
+    $('html,body').animate({
+            scrollTop: $(".contact-me").offset().top
+        },
+        'slow');
+});
+
+
+
+
+
 $(".blue").on("click", function() {
     $('.picture').css('background-image', 'url(img/jcole/j.cole-blue.png');
 });
