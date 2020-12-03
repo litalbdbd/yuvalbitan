@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Alef', sans-serif;
 }
 
 body {
@@ -19,6 +20,23 @@ body {
     flex-direction: column;
     color: white;
     height: 47vh;
+    font-size: 20px;
+}
+
+.g-d {
+    font-size: 19px;
+    font-family: 'Alef', sans-serif;
+    animation: mymove 5s infinite;
+    letter-spacing: normal;
+}
+
+@keyframes mymove {
+    0% {
+        top: 0px;
+    }
+    100% {
+        letter-spacing: 2px;
+    }
 }
 
 .menu {
@@ -28,6 +46,7 @@ body {
     flex-direction: column;
     color: white;
     height: 53vh;
+    font-size: 20px;
 }
 
 .about-me {
@@ -44,6 +63,7 @@ body {
     height: 50vh;
     margin-top: 100px;
     font-family: 'Alef', sans-serif;
+    font-size: 20px;
 }
 
 #second-contact {
@@ -148,4 +168,13 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.logo {
+    background-image: url(img/yellow.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
 }
