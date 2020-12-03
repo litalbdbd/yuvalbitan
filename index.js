@@ -12,12 +12,13 @@ $("#work").click(function() {
         'slow');
 });
 
-$("#contact").click(function() {
+$("#contact,#second-contact").click(function() {
     $('html,body').animate({
             scrollTop: $(".contact-me").offset().top
         },
         'slow');
 });
+
 
 
 

@@ -43,6 +43,12 @@ body {
     width: 90%;
     height: 50vh;
     margin-top: 100px;
+    font-family: 'Alef', sans-serif;
+}
+
+#second-contact {
+    font-family: 'Alef', sans-serif;
+    text-decoration: underline;
 }
 
 .works {
