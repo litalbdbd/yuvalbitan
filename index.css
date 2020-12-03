@@ -12,6 +12,19 @@ body {
 .name {
     font-size: 140px;
     font-weight: 600;
+    animation: shine 5s infinite;
+}
+
+@keyframes shine {
+    0% {
+        color: white;
+    }
+    50% {
+        color: wheat;
+    }
+    100% {
+        color: white;
+    }
 }
 
 .first-part {
